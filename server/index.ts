@@ -8,7 +8,7 @@ const PORT = Number(process.env.PORT) || 5174;
 app.use(express.json());
 
 app.get('/api/hello', (_req, res) => {
-	res.json({ message: 'Hello from Express API!' });
+	res.json({ message: 'Hello from Express API!!!' });
 });
 
 // 在 ESM 下取得 __dirname

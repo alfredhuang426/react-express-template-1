@@ -14,6 +14,5 @@
     "strict": true
   },
   "include": ["src", "vite.config.ts", "index.html"],
-  "references": [{ "path": "./tsconfig.server.json" }]
+  "references": [{ "path": "./tsconfig.server.json", "composite": true }]
 }
-
